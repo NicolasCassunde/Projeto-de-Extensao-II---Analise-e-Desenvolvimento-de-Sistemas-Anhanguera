@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Modus Fitness – Saúde e Bem-Estar</title>
+        <link rel="stylesheet" href="arquivo.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <h1>Modus Fitness – Seu Novo Modus de Viver</h1>
+                <p>Academia premium dedicada à promoção da saúde e bem-estar</p>
+                <p class="autor">
+                    Desenvolvido por Nicolas Cassundé – Faculdade Anhanguera
+                </p>
+            </div>
+        </header>
+
+        <main>
+            <!-- SOBRE -->
+            <section id="sobre" class="card">
+                <h2>Sobre a Modus Fitness</h2>
+                <p>
+                    A <strong>Modus Fitness</strong>, localizada em
+                    <strong>Jardim Primavera – Duque de Caxias (RJ)</strong>,
+                    oferece musculação, treinamento funcional, natação,
+                    hidroginástica e preparatórios físicos, promovendo saúde,
+                    qualidade de vida e bem-estar.
+                </p>
+                <p>
+                    Este projeto de extensão universitária está alinhado ao
+                    <strong>ODS 3 – Saúde e Bem-Estar</strong>, com foco na
+                    <strong>Meta 3.4</strong>, que incentiva a prevenção de
+                    doenças não transmissíveis e a promoção do bem-estar físico
+                    e mental através da prática regular de atividade física.
+                </p>
+
+                <div class="video-container">
+                    <video controls>
+                        <source src="./public/modus.mp4" type="video/mp4" />
+                        Seu navegador não suporta vídeos.
+                    </video>
+                </div>
+
+                <div class="video-container">
+                    <video controls>
+                        <source src="./public/modus2.mp4" type="video/mp4" />
+                        Seu navegador não suporta vídeos.
+                    </video>
+                </div>
+            </section>
+
+            <!-- MODALIDADES -->
+            <section id="modalidades" class="card">
+                <h2>Modalidades Oferecidas</h2>
+                <div class="mod-grid">
+                    <div class="mod-item">
+                        <h3>Musculação</h3>
+                        <p>
+                            Treinos completos com acompanhamento profissional,
+                            promovendo força, resistência e condicionamento
+                            físico.
+                        </p>
+                    </div>
+                    <div class="mod-item">
+                        <h3>Natação Infantil</h3>
+                        <p>
+                            Aulas lúdicas para crianças, desenvolvendo
+                            coordenação, segurança e adaptação ao meio aquático.
+                        </p>
+                    </div>
+                    <div class="mod-item">
+                        <h3>Natação Adulto</h3>
+                        <p>
+                            Exercício completo que melhora capacidade
+                            cardiorrespiratória, postura e condicionamento
+                            geral.
+                        </p>
+                    </div>
+                    <div class="mod-item">
+                        <h3>Hidroginástica</h3>
+                        <p>
+                            Atividade de baixo impacto, ideal para todos os
+                            públicos, promovendo bem-estar e fortalecimento
+                            muscular.
+                        </p>
+                    </div>
+                    <div class="mod-item">
+                        <h3>Preparatório TAF</h3>
+                        <p>
+                            Treinamento específico para concursos, com foco em
+                            desempenho físico e evolução gradual.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- INFORMAÇÕES -->
+            <section id="info" class="card">
+                <h2>Informações da Academia</h2>
+                <ul class="info-list">
+                    <li>
+                        📍 Endereço: Estrada São Tomé, LT 08 – Jardim Primavera,
+                        Duque de Caxias – RJ
+                    </li>
+                    <li>
+                        📱 Instagram:
+                        <a
+                            href="https://www.instagram.com/modusfitnessclub/"
+                            target="_blank"
+                            >@modusfitnessclub</a
+                        >
+                    </li>
+                </ul>
+
+                <h3>Horário de Funcionamento</h3>
+                <ul class="horarios">
+                    <li>Segunda a Sexta: 05h às 22h</li>
+                    <li>Sábado: 08h às 14h</li>
+                    <li>Domingo e Feriados: 08h às 12h</li>
+                </ul>
+            </section>
+
+            <!-- CONTATO -->
+            <section id="contato" class="card">
+                <h2>Contato</h2>
+                <p>Para dúvidas ou informações relacionadas ao projeto:</p>
+                <p>
+                    <a href="mailto:contato@modusfitness.com" class="email"
+                        >contato@modusfitness.com</a
+                    >
+                </p>
+            </section>
+
+            <!-- CTA -->
+            <div class="cta">
+                <button id="cta-btn">Visitar Instagram</button>
+            </div>
+        </main>
+
+        <script>
+            document
+                .getElementById("cta-btn")
+                .addEventListener("click", function () {
+                    window.open(
+                        "https://www.instagram.com/modusfitnessclub/",
+                        "_blank",
+                    );
+                });
+        </script>
+
+        <footer>
+            <p>
+                &copy; 2025 Modus Fitness – Jardim Primavera. Todos os direitos
+                reservados.
+            </p>
+            <p>
+                Desenvolvido por <strong>Nicolas Cassundé</strong> – Faculdade
+                Anhanguera
+            </p>
+        </footer>
+    </body>
+</html>
